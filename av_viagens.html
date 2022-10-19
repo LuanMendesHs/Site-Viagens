@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Av Viagens - Levando você aos seus sonhos!</title>
+    <link rel="stylesheet" type="text/css" href="av_viagens.css">
+
+</head>
+<body>
+
+    <a id="area_home"></a>
+    <h1 id="header"> AV Viagens <br> Levando você aos seus sonhos!</h1>
+
+    <table id="nav">
+        <tr>
+            <td>
+                <a class="a_decoration" href="#area_home">Home</a>
+            </td>
+
+            <td>
+                <a class="a_decoration" href="#area_nos">Quem Somos</a>
+            </td>
+
+            <td>
+                <a class="a_decoration" href="#area_enquete">Enquete</a>
+            </td>
+
+            <td>
+                <a class="a_decoration" href="#area_contato">Contados</a>
+            </td>
+            
+            <td>
+                <a class="a_decoration" href="#area_localizacao">Localização</a>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    
+    <a id="area_nos" ></a>
+    <table id="sobre_nos">
+        <tr>
+            <td>
+                <img src="av_viagens_nos.jpg" alt="sobre nós">
+            </td>
+            <td>
+                <h2> Sobre Nós</h2>
+                <p id="p_sobre_nos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor quod soluta earum ab facere voluptatum ipsa expedita nisi dolorem eius sed eos beatae incidunt voluptatibus culpa sit esse et fugit iste excepturi, error eligendi. Assumenda, optio. Accusamus, veritatis nihil tempora ab illum repudiandae optio! Ipsa aut impedit repellat excepturi?</p>
+            </td>
+        </tr>
+    </table>
+    <div id="div_background">
+    <div id="div_enquete">
+        <a id="area_enquete"></a>
+        <form>
+            <h2>Qual destino você deseja ?</h2>
+            <div>
+                <label class="form_texto" for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <fieldset>
+                    <legend class="form_texto">Melhores Destinos: </legend>
+                    <ul>
+                        <li class="form_texto">
+                            <input type="radio" name="destino" id="paris" value="paris">
+                            <label for="paris">Paris</label>
+                        </li>
+                        <li class="form_texto">
+                            <input type="radio" name="destino" id="londres" value="londres">
+                            <label for="londres">Londres</label>
+                        </li>
+                        <li class="form_texto">
+                            <input type="radio" name="destino" id="india" value="india">
+                            <label for="india">India</label>
+                        </li>
+                        <li class="form_texto">
+                            <input type="radio" name="destino" id="italia" value="italia">
+                            <label for="italia">Italia</label>
+                        </li>
+                        <li class="form_texto">
+                            <input type="radio" name="destino" id="rio_de_janeiro" value="rio_de_janeiro">
+                            <label for="rio_de_janeiro">Rio de Janeiro</label>
+                        </li>
+                    </ul>
+                <input type="submit" id="btn_enviar">
+                </fieldset>
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <div id="div_background2">
+    <div id="div_contato">
+        <a id="area_contato"></a>
+        <form>
+            <h2>Em que podemos lhe ajudar ?</h2>
+            <div>
+                <label class="form_texto" for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome">
+            </div>
+            <div>
+                <label class="form_texto" for="email">E-mail: </label>
+                <input type="text" name="email" id="email">
+            </div>
+            <div>
+                <label class="form_texto" for="contato">Contato: </label>
+                <input type="text" name="contato" id="contato">
+            </div>
+            <div>
+                <label class="form_texto" for="mensagem">Mensagem: </label>
+                <input type="text" name="mensagem" id="mensagem">
+            </div>
+            <div>
+                <input type="submit" id="btn_enviar">
+            </div>
+        </form>
+    </div>
+    </div>
+
+    <hr>
+
+    <table id="tabela_mapa">
+        <tr>
+            <td>
+                <a id="area_localizacao"></a>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d420.9675406487503!2d-46.63083390385552!3d-23.548553635047092!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5913697dcb15%3A0x78526f1a49ddda64!2sHamuche%20Enxovais!5e0!3m2!1spt-BR!2sbr!4v1664824227624!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </td>
+        </tr>
+    </table>
+
+    <footer>
+        &copy; Todos os Direitos Reservados
+    </footer>
+
+</body>
+</html>
